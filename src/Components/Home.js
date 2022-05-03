@@ -3,9 +3,10 @@ import React, { Component } from 'react'
 export default class Home extends Component {
     render() {
         return (
-            <div style={{ fontSize: "24px " }}>
+            <div style={{ fontSize: "24px " }}
                 <br />
                 <h2>  Home </h2>
+
                 <br />
                 <div></div>
 
@@ -31,7 +32,10 @@ export default class Home extends Component {
                 <br />
                 
                 <div style={{ textAlign: "center", }}> <b> TARGET USERS </b> </div>
+<<<<<<< HEAD
 
+                <br/>
+>>>>>>> a87290c7641209eb9caea9f445006a390c7f3a01
                 <ul style={{ textAlign: "left" }}>
                     <li>Our primary users are users with smartphones who wish to donate and/or receive excess food.</li>
                     <li>Teens (13 - 18) and Adults (18 - 65 years old) are the primary targets for this project.</li>

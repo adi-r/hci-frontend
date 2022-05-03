@@ -28,7 +28,7 @@ export default class NavbarComp extends Component {
                         <Navbar.Collapse id="navbarScroll">
                             <Nav
                                 className="mr-auto my-2 my-lg-0"
-                                style={{ maxHeight: '100px' , fontSize : '20px' }}
+                                style={{ maxHeight: '80px' , fontSize : '20px' }}
                                 navbarScroll
                             >
                                 <Nav.Link as={Link} to="/home"> <img style = {{ marginLeft : "10px important!" ,  width : "300px" , height : "70px"}}src = {logo} /> </Nav.Link>
