@@ -1,14 +1,13 @@
 import React, { Component } from 'react'
 
-import t11 from "./images/t11.PNG"
-import t12 from "./images/t12.PNG"
-import t21 from "./images/t21.PNG"
-import t22 from "./images/t22.PNG"
-import t23 from "./images/t23.PNG"
-import t24 from "./images/t24.PNG"
-import t31 from "./images/t31.PNG"
-import t32 from "./images/t32.PNG"
-import t33 from "./images/t33.PNG"
+import p1 from "./images/1.jpeg"
+import p2 from "./images/2.jpeg"
+import p3 from "./images/3.jpeg"
+import p4 from "./images/4.jpeg"
+import p5 from "./images/5.jpeg"
+import p6 from "./images/6.jpeg"
+import p7 from "./images/7.jpeg"
+import p8 from "./images/8.jpeg"
 
 
 export default class About extends Component {
@@ -21,13 +20,13 @@ export default class About extends Component {
 
                 <h2>Design Challenge : Adding new food donations and specifying details </h2>
                 
-                <img src={8} />
+                <img src={p8} />
 
                 <h2>Design Challenge : Tracking food donated and received </h2>
 
-                <img src={4} />
-                <img src={5} />
-                <img src={6} />
+                <img src={p4} />
+                <img src={p5} />
+                <img src={p6} />
 
 
                 <br />
@@ -52,9 +51,9 @@ export default class About extends Component {
 
 
 
-                <img src={1} />
-                <img src={2} />
-                <img src={3} />
+                <img src={p1} />
+                <img src={p2} />
+                <img src={p3} />
 
 
                 
