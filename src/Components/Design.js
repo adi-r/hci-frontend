@@ -16,24 +16,18 @@ export default class About extends Component {
 
 
         return (
-            <div style={{ textAlign: "left" }}>
-
-
-                <img src={t11} />
-                <img src={t12} />
-                <img src={t21} />
-                <img src={t22} />
-                <img src={t23} />
-                <img src={t24} />
-                <img src={t31} />
-                <img src={t32} />
-                <img src={t33} />
+            <div style={{ textAlign: "center" }}>
+            <h2> Design Challenges </h2>              
 
                 <h2>Design Challenge : Adding new food donations and specifying details </h2>
+                
+                <img src={8} />
 
                 <h2>Design Challenge : Tracking food donated and received </h2>
 
-
+                <img src={4} />
+                <img src={5} />
+                <img src={6} />
 
 
                 <br />
@@ -58,153 +52,24 @@ export default class About extends Component {
 
 
 
+                <img src={1} />
+                <img src={2} />
+                <img src={3} />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                DESIGN REFLECTIONS
-
+                
+                <div style={{ textAlign: "center", }}> <b> Design Reflections </b> </div>
                 Aditya’s Design Reflection
-
-
-                In terms of general interaction design, our group has focused more on improving the learnability of the application compared to efficiency and safety. Our original ideas were more geared towards efficiency and safety, rather than learnability. But, from the interviews and surveys conducted, we realized that there’s a general lack of awareness when it comes to food donation. We wanted the application to be extremely user-friendly with a focus on high learnability so that users can quickly understand how the interface works and can start donating food. We hope to foster and increase both user and public awareness regarding food wastage.
-                With that in mind, we’ve selected simple and easily recognizable icons such as the ‘Home’ icon for the main page, the ‘Magnifying Glass’ which is a metaphor for searching, the ‘Speech Bubble’ icon which is a metaphor for communication and the ‘Account’ symbol, through rigorous use is easily recognizable now. Due to the large scope of the target audience, we tried to ensure that whatever icons and metaphors we used in the interface would be easily recognizable.
-                During our group discussions, we kept referring to Nielsen’s 10 principles to refine our design. We focused particularly on matching the user’s mental model and systems model to improve learnability and readability. Another aspect that we were concerned about was user control. A few of the interviewees expressed their concerns about sharing their location with strangers. Taking these into consideration we wanted our users to have complete control over their data. Users can choose to either share their information or designate drop-off locations from where the food item can be collected.
-                Finally, I can say that iterating through designs really helps to find potential and/or obscure issues. By coming up with various alternative designs, not only are we discovering new issues in designs that we otherwise thought were bulletproof, but also methods and components that can improve aspects of our design and improve usability principles. We can also mix-match components from multiple designs to create new interfaces which can reduce deficiencies that were originally present.
-
-                APPENDIX
-
-
-
-                Aditya’s Individual Designs
-
-                Adding new food donations and corresponding information
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                Design Challenge: Keeping track of food donated/received
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                Design Challenge: Communication between Donor and Receiver
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                Design Challenge: Searching for donors/shelters/NGO’s in the vicinity
-
-
-
-
-
-                Karthik’s Individual Designs
-
-
-
-                Design Challenge: Searching for donors/shelters/NGO’s in the vicinity
-
-
-
-
-
-
-
-
-
-
-                In task 1 - (point 1,2,3 are iterations, point 4,5 are alternatives) you can see that in the first iteration(1) we started off with a listview having most of the interactive components including the search bar on the bottom of the screen so that it's easier for one handed thumb usage but in iteration(3) which is a combination of interaction 1 & 2 we moved it up to the top as we needed to dynamically display the list as the user starts giving input so that we could increase efficiency.
-
-
-
-                Design Challenge: Adding new food donations and corresponding information.
-
-
-
-
-
-
-
-
-
-
-
-                In task 2 - (point 1,2,3 are iterations, point 4 is an alternative) Iteration one was our very first design where we had assumed that only 1 photo was sufficient and current location would always be the pick up point for the receiver. In iteration 2 we added multiple image support as well as the ability to choose the location. To further improve on efficiency we added a mini map directly in iteration 3 so that the default location was more readable for the user,editable while expanded. point 4 is a non-photo alternative that we thought of for that some standard food outlets could use something like a big mac did not necessarily need a photo but the idea was discarded as there was minimal matching in the requirement.
-
-
-
-                Design Challenge: Keeping track of food donated/received.
-
-
-
-
-
-
-
-
-
-                In task 3 - (point 1,2,5 are iterations, point 3,4 are alternatives) we Initially thought of using the list view again where the list was separated by receiver, donor tabs but at a glance the user was not getting too much information in this layout so we thought of adding a graph in iteration 2 to make all the stats more readable at a glance, the graph would show count of items donated in a time range still separated by a tab. Then in the next iteration(5) we removed the tabs so that we could color code the graph that split donations/receptions along with the stats below to increase efficiency only to come to a point where we realized that it would be incredibly difficult to generate mean data for food measured with different standards. So we chose to discard 1,2,5 and built a timeline view(point 4) similar to phone logs showing donation/reception history in a vertical timeline.
-
-                Design Challenge: Communication between Donor and Receiver
-
-
-
-
-
-
-
-
-                In task 4(all points are alternatives). The basic idea always remained the same, having sender message to the left, receiver message to the right. Any other layout I could think of like grid view/ exploded view decreased readability by increasing clutter. So the final design layout looks similar to whatsapp/wechat/fb messenger. There were very few layouts I could think of that could outperform the above in any factor.
-
-                Design Reflection
-
+                <ul style={{ textAlign: "left" }}>
+                    <li>In terms of general interaction design, our group has focused more on improving the learnability of the application compared to efficiency and safety. Our original ideas were more geared towards efficiency and safety, rather than learnability. But, from the interviews and surveys conducted, we realized that there’s a general lack of awareness when it comes to food donation. We wanted the application to be extremely user-friendly with a focus on high learnability so that users can quickly understand how the interface works and can start donating food. We hope to foster and increase both user and public awareness regarding food wastage.
+                    </li>
+                    <li>During our group discussions, we kept referring to Nielsen’s 10 principles to refine our design. We focused particularly on matching the user’s mental model and systems model to improve learnability and readability. Another aspect that we were concerned about was user control. A few of the interviewees expressed their concerns about sharing their location with strangers. Taking these into consideration we wanted our users to have complete control over their data. Users can choose to either share their information or designate drop-off locations from where the food item can be collected.
+                    </li>
+                    <li>Finally, I can say that iterating through designs really helps to find potential and/or obscure issues. By coming up with various alternative designs, not only are we discovering new issues in designs that we otherwise thought were bulletproof, but also methods and components that can improve aspects of our design and improve usability principles. We can also mix-match components from multiple designs to create new interfaces which can reduce deficiencies that were originally present.
+                    </li>
+                    
+                </ul>
+                Karthik’s Design Reflection
                 <ul style={{ textAlign: "left" }}>
                     <li>
                         In design 1 we first tried to focus more on efficiency only to realize that changing one component might affect another like increasing too much efficiency and making everything on the smartphone reachable by the thumb might decrease learnability & readability due to cluttering. So sometimes we need to balance between different factors. We get only a limited number of points which we could allocate as per our apps needs.
